@@ -67,7 +67,7 @@ function GradeDistribution (props) {
         <Grid item xs={12}>
           <Paper className={classes.paper}>
             <Typography variant='h5' gutterBottom >Grade Distribution</Typography >
-             {loaded ? tableBuilder(gradeData) : <Spinner />}
+            {loaded ? tableBuilder(gradeData) : <Spinner />}
           </Paper>
         </Grid>
       </Grid>
